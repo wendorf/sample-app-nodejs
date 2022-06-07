@@ -36,7 +36,7 @@ services:
   name: mysql
   plan: standard
   env: docker
-  repo: https://github.com/render-examples/
+  repo: https://github.com/render-examples/mysql
   disk:
     name: mysql
     mountPath: /var/lib/mysql
