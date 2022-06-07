@@ -2,7 +2,7 @@ services:
 - type: web
   name: bigcommerce-sample-app
   env: node
-  startCommand: npm install && npm run db:setup && npm run start
+  startCommand: npm install && npm run start
   buildCommand: npm install && npm run build
   envVars:
   # The client id of your app, provided by the BigCommerce developer portal.
